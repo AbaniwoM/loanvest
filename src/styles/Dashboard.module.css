@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Lobster&family=Raleway:wght@300&display=swap');
+
+.contain {
+    background: rgb(240, 217, 188);
+    font-family: 'Raleway', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rightContent {
+    border-left: 1px solid black;
+    width: 75%
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    width: 107%;
+    
+}
+
+.head h1 {
+    margin-left: 70px;
+    font-family: 'Lobster', cursive;
+}
+
+.signout {
+    height: 6vh;
+    width: 10%;
+    cursor: pointer;
+    margin-top: 23px;
+    margin-right: 60px;
+    border: none;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+}
+
+.signout:hover {
+    background-color: white;
+    color: black;
+}
+
+.dash {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    margin-left: 75px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: black;
+    border-radius: 50%;
+    width: 20%;
+    height: 7vh;
+    text-align: center;
+    color: white;
+    padding-top: 12px;
+}
+
+.picture {
+    font-size: 2.5rem;
+    color: black;
+    text-align: center;
+}
+
+.content {
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.logo {
+    display: flex;
+    margin-top: 30px;
+    font-size: 1.7rem;
+    margin-left: -30px;
+}
+
+.vest {
+    font-family: 'Lobster', cursive;
+}
+
+.Btn {
+    margin-top: 19px;
+}
+
+.dashBtn {
+    border-top: 1px solid black;
+    padding-top: 20px;
+    width: 296%;
+    margin-left: -60px;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+.dashBtn:hover {
+    background: gray;
+    color: white;
+}
+
+.dashBtn h1 {
+    font-size: 1rem;
+    margin-top: -10px;
+    margin-left: 50px;
+}
+
+.loanBtn {
+    padding-top: 20px;
+    width: 296%;
+    margin-left: -60px;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+.loanBtn h1 {
+    font-size: 1rem;
+    margin-top: -10px;
+    margin-left: 50px;
+}
+
+.loanBtn:hover {
+    background: gray;
+    color: white;
+}
+
+.payBtn {
+    padding-top: 20px;
+    width: 296%;
+    margin-left: -60px;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+.payBtn h1 {
+    font-size: 1rem;
+    margin-top: -10px;
+    margin-left: 50px;
+}
+
+.payBtn:hover {
+    background: gray;
+    color: white;
+}
+

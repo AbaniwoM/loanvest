@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Lobster&family=Raleway:wght@300&display=swap');
+
+:root {
+    --errorColor: #f00e0e;
+    --validColor: #0add0a;
+    --lightGray: #b1b1b1;
+    --modalBodyColor: rgb(221, 186, 140);
+}
+
+.container {
+    background: rgb(240, 217, 188);
+    font-family: 'Raleway', sans-serif;
+    height: 100vh;
+}
+
+.hero {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url('../images/img1.jpg');
+    width: 95%;
+    height: 75vh;
+    position: relative;
+    background-position: center;
+    margin: auto;
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    margin-top: 70px;
+    position: absolute;
+    border-radius: 15px;
+    width: 36%;
+    height: 45vh;
+    margin-left: 90px;
+    background-color: rgb(48, 47, 47);
+}
+  
+.text h1 {
+    font-size: 3rem;
+    margin-left: 20px; 
+    margin-top: 10px; 
+    font-family: 'Lobster', cursive;
+}
+  
+.text p {
+    font-size: 1.1rem; 
+    margin-left: 20px; 
+    width: 80%;
+    font-weight: bold;
+    margin-top: -20px;
+    line-height: 30px; 
+}
+
+.mainBtn {
+    margin-left: 20px;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-weight: 800;
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.mainBtn:hover {
+    background-color: gray;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    height: 11vh;
+}
+
+.logo {
+    display: flex;
+    font-size: 1.7rem;
+    margin-top: 10px;
+}
+
+.vest {
+    margin-left: 5px;
+    margin-top: 5px;
+    font-family: 'Lobster', cursive;
+}
+
+.nav {
+    display: flex;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-top: 20px;
+    margin-left: 180px;
+    cursor: pointer;
+}
+
+.login {
+    margin-right: 50px;
+    padding: 2px 35px;
+    border-radius: 4px;
+    height: 5vh;
+    border: none;
+    cursor: pointer;
+    margin-top: -1px;
+    background-color: rgb(107, 105, 105);
+    color: white;
+}
+
+.icon {
+    margin-top: 7px;
+}
+
+.about {
+    margin-right: 40px;
+    margin-top: 5px;
+    font-weight: 900;
+    font-size: 0.9rem;
+}
+
+.signup {
+    margin-right: 50px;
+    padding: 2px 28px;
+    height: 5vh;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    margin-top: -1px;
+    background-color: rgb(107, 105, 105);
+    color: white;
+}
+
+.login:hover {
+    background-color: white;
+    color: black;
+}
+
+.signup:hover {
+    background-color: white;
+    color: black;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 13px;
+}
+
+/* Signup modal */
+body.active-modal {
+    overflow-y: hidden;
+}
+
+.btn-modal {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+}
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+
+.modal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.5);
+    display: block;
+    font-family: 'Raleway', sans-serif;
+}
+
+.modalContent {
+    background: #f4f4f4;
+    margin: 10% auto;
+    width: 60%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.2);
+    position: relative;
+    border-radius: 10px;
+    height: 500px;
+    display: flex;
+    margin-top: 60px;
+}
+
+.modalImg {
+    width: 80%;
+    height: 80%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.modalContentLeft {
+    background: rgb(185, 130, 57);
+    border-radius: 10px 0px 0px 10px;
+    position: relative;
+    width: 60%;
+    margin-left: -7px;
+}
+
+.modalContentRight {
+    border-radius: 0 3px 3px 0;
+    position: relative; 
+}
+
+.closeModal {
+    z-index: 1;
+    position: absolute;
+    right: 3%;
+    font-size: 1rem;
+    margin-left: 5px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: rgb(187, 116, 23);
+    background: none;
+    border: none;
+}
+
+.closeModal:hover {
+    transition: 0.2s ease-out;
+    color: rgb(226, 183, 131);
+    cursor: pointer;
+}
+
+.logo2 {
+    display: flex;
+    font-size: 2rem;
+    font-family: 'Lobster', cursive;
+    color: rgb(187, 116, 23);
+}
+
+.vest2 {
+    margin-left: 6px;
+}
+
+.modalForm {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formHead {
+    font-size: 0.9rem;
+    text-align: start;
+    line-height: 20px;
+    font-weight: 600;
+    color: rgb(15, 15, 15);
+    width: 80%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.formValidation {
+    margin-bottom: 0.5rem;
+    width: 80%;
+}
+
+.formValidationError {
+    margin-bottom: 1.5rem;
+    position: relative;
+    border: 1px solid var(--errorColor);
+    border-radius: 2px;
+}
+
+.formValidationValid {
+    margin-bottom: 0.5rem;
+    position: relative;
+    border: 1px solid var(--validColor);
+    border-radius: 2px;
+}
+
+.formValidation p {
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+    color: var(--errorColor);
+    position: absolute;
+    top: 1.8rem;
+    display: none;
+}
+
+.formValidationError p {
+    display: block;
+}
+
+.modalInput {
+    display: block;
+    padding-left: 0.5rem;
+    outline: none;
+    border-radius: 2px;
+    border: none;
+    height: 2rem;
+    width: 100%;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.05);
+}
+
+.modalInput::placeholder {
+    color: var(--lightGray);
+}
+
+.modalInputBtn {
+    width: 80%;
+    height: 2rem;
+    border-radius: 2px;
+    background-color: rgb(187, 116, 23);
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: bold
+}
+
+.modalInputBtn:hover {
+    cursor: pointer;
+    background-color: rgb(214, 164, 97);
+    transition: all 0.4s ease-out;
+}
+
+.modalInputLogin {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    color: rgb(109, 107, 107);
+    width: 80%;
+    font-weight: 500;
+    text-align: center;
+}
+
+.modalInputLogin a {
+    text-decoration: none;
+    color: rgb(187, 116, 23);
+    font-weight: 600;
+}
+
+.modalInputLogin2 {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    color: rgb(109, 107, 107);
+    width: 80%;
+    font-weight: 500;
+    text-align: center;
+}
+
+.modalInputLogin2 a {
+    text-decoration: none;
+    color: rgb(187, 116, 23);
+    font-weight: 600;
+}
+
+
+
+
