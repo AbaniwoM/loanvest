@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+Friday, 5th November 2021
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+LOANVEST  APP DOCUMENTATION:
 
-## Available Scripts
+•	LoanVest is an interactive application that helps users have access to real time loans and to be able to track their investments. It takes care of both loans and investments at high speed. 
 
-In the project directory, you can run:
+•	LoanVest has an interactive landing page. It consists of a signup button which helps users to register with the app. 
 
-### `yarn start`
+•	The app also consists of a login page with a button which links the users to the dashboard.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+•	The LoanVest App also has a special database with firebase which helps to store the user`s data. When the data is stored, the user will be able to signup successfully and login whenever he/she wants.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+•	React.js was used to build this application with Landingpage.js as the root file. This file controls the whole page. 
 
-### `yarn test`
+•	React icons was also imported to take care of the icons used in this app.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+•	Google fonts were used for the font family all through the app.
 
-### `yarn build`
+•	useState of react was used in the app at different points.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+•	The app is very much interactive and easy to understand and navigate. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+•	Visual studio was used as the text editor.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+•	The app is also hosted on netlify: https://loanvest.netlify.app/
 
-### `yarn eject`
+•	The link to the github repo for the app is: https://github.com/AbaniwoM/loanvest 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+•	A screen recording was also done for a brief overview of the app by Bandicam Screen Recorder (https://www.bandicam.com).  Link to the video on Youtube: https://youtu.be/je6o2QUilo4 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Thank you so much for using LoanVest. We expect your honest feedback soon!!!!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
